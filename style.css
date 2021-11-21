@@ -1,0 +1,190 @@
+/* Put your css in here, and don't forget to link this to the .html file */
+body{    
+    background-color: rgb(0, 161, 214);
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 10px;
+    min-height: 10px;
+}
+.big-hair{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(154, 158, 172);
+    margin-top: 170px;
+    margin-left: 340px;
+    position: absolute;
+}
+.small-hair{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(154, 158, 172);
+    margin-top: 180px;
+    margin-left: 450px;
+    position: absolute;
+    animation-name: hairs;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.main-circle{
+    width:500px;
+    height: 500px;
+    background:rgb(154, 158, 172);
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 200px;
+    position: absolute;
+    animation-name: main-circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+/*Face animation*/
+@keyframes main-circle {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;
+    }
+    }
+/*Ears animation*/
+@keyframes ears {
+    0%   {background-color: rgb(0, 255, 0);}
+    25%  {background-color: rgb(255, 38, 0);}
+    50%  {background-color: rgb(255, 0, 242);}
+    100% {background-color: rgb(197, 184, 0);}
+    }
+
+    /*Nose animation*/
+    @keyframes nose {
+        0%   {background-color: #995803;}
+        25%  {background-color: #c77203;}
+        50%  {background-color: #683b00;}
+        100% {background-color: #ff9205;}
+    }
+.main-ear-left{
+    width:300px;
+    height: 300px;
+    background:rgb(154, 158, 172);
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: -2;
+    animation-name: ears;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.main-ear-left-inside{
+    width:240px;
+    height: 240px;
+    background:rgb(112, 112, 112);
+    border-radius: 50%;
+    margin-top: 280px;
+    margin-left: 110px;
+    position: absolute;
+    z-index: -2;
+}
+.main-ear-rigth{
+    width:300px;
+    height: 300px;
+    background:rgb(154, 158, 172);
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 550px;
+    position: absolute;
+    z-index: -2;
+    animation-name: ears;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.main-ear-rigth-inside{
+    width:240px;
+    height: 240px;
+    background:rgb(112, 112, 112);
+    border-radius: 50%;
+    margin-top: 280px;
+    margin-left: 580px;
+    position: absolute;
+    z-index: -2;
+}
+.eye-left{
+    position: absolute;
+    width:150px;
+    height: 150px;
+    background:rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 350px;
+    margin-left: 300px;
+    
+}
+.eye-left-inside{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background:rgb(8, 8, 8);
+    border-radius: 50%;
+    margin-top: 400px;
+    margin-left: 350px;
+}
+.eye-rigth{
+    position: absolute;
+    width:150px;
+    height: 150px;
+    background:rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 350px;
+    margin-left: 430px;
+    
+}
+.eye-rigth-inside{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    background:rgb(8, 8, 8);
+    border-radius: 50%;
+    margin-top: 400px;
+    margin-left: 480px;
+}
+.nose-up{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    background:#995803;
+    border-radius: 50%;
+    margin-top: 445px;
+    margin-left: 375px;
+    animation-name: nose;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.nose-mid{
+    position: absolute;
+    width:110px;
+    height: 90px;
+    background:#995803;
+    margin-top: 500px;
+    margin-left: 375px;
+    animation-name: nose;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.nose-down{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    background:#995803;
+    border-radius: 50%;
+    margin-top: 530px;
+    margin-left: 375px;
+    animation-name: nose;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
