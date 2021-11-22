@@ -7,6 +7,9 @@ body{
     min-width: 10px;
     min-height: 10px;
 }
+.container{
+    margin-left:500px;
+}
 .big-hair{
     width: 0;
     height: 0;
